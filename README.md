@@ -1,16 +1,24 @@
-## Hi there 👋
+# Hi, I'm Ayodeji Daramola
 
-<!--
-**rrichoffunds/rrichoffunds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm an Information Systems student interested in networking, cybersecurity, and software development.
 
-Here are some ideas to get you started:
+## Skills
+- C++
+- GitHub
+- Networking
+- Cisco Packet Tracer
+- Troubleshooting
+- Cybersecurity fundamentals
+- Microsoft Office
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects I'm Working On
+- C++ beginner programming projects
+- Cisco Packet Tracer networking labs
+- CompTIA Security+ study notes
+- IT ticket tracker project
+
+## Career Interests
+- Network Engineering
+- Cybersecurity
+- IT Support
+- Systems Analysis
