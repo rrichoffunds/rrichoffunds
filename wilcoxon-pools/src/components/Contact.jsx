@@ -191,12 +191,22 @@ export default function Contact() {
             <iframe
               title={`Map to ${company.name}`}
               src={`https://www.google.com/maps?q=${encodeURIComponent(`${company.name}, ${fullAddress}`)}&output=embed`}
-              className="h-80 w-full border-0 sm:h-96"
+              className="img-fallback h-80 w-full border-0 sm:h-96"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
             />
           </div>
+          <p className="mt-4 text-center">
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${company.name}, ${fullAddress}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 font-semibold text-brand-200 hover:text-white"
+            >
+              <MapPin className="size-4" aria-hidden /> Open in Google Maps
+            </a>
+          </p>
         </Reveal>
       </div>
     </section>

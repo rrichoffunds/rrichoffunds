@@ -34,7 +34,13 @@
 .reveal.is-visible { opacity: 1; transform: none; }
 
 /* Water-like fallback when a photo can't load */
-.img-fallback { background: linear-gradient(135deg, #0b4a8b 0%, #1d65eb 45%, #38bdf8 100%); }
+.img-fallback {
+  background:
+    radial-gradient(40% 30% at 25% 30%, rgba(255,255,255,.22), transparent 70%),
+    radial-gradient(30% 25% at 75% 65%, rgba(186,230,253,.25), transparent 70%),
+    repeating-radial-gradient(circle at 60% 40%, rgba(255,255,255,.07) 0 6px, transparent 6px 22px),
+    linear-gradient(135deg, #0b4a8b 0%, #1d65eb 45%, #38bdf8 100%);
+}
 
 /* Hero slow zoom */
 @keyframes slowzoom { from { transform: scale(1.08); } to { transform: scale(1); } }

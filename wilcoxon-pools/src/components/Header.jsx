@@ -14,7 +14,12 @@ const links = [
 export function Logo({ light }) {
   return (
     <a href="#top" className="flex items-center gap-2.5" aria-label={`${company.name} home`}>
-      <img src="/favicon.svg" alt="" className="size-10 rounded-xl" width="40" height="40" />
+      <svg viewBox="0 0 64 64" className="size-10" aria-hidden>
+        <rect width="64" height="64" rx="14" fill="#0b4a8b" />
+        <path d="M10 38c6 0 6-4 11-4s5 4 11 4 6-4 11-4 5 4 11 4" fill="none" stroke="#fff" strokeWidth="4" strokeLinecap="round" />
+        <path d="M10 48c6 0 6-4 11-4s5 4 11 4 6-4 11-4 5 4 11 4" fill="none" stroke="#7cc4ff" strokeWidth="4" strokeLinecap="round" />
+        <path d="M22 30V16m20 14V16M22 20h20M22 26h20" fill="none" stroke="#fff" strokeWidth="3.5" strokeLinecap="round" />
+      </svg>
       <span className="leading-tight">
         <span className={`block font-display text-lg font-extrabold tracking-tight ${light ? 'text-white' : 'text-brand-900'}`}>Wilcoxon</span>
         <span className={`block text-[11px] font-semibold tracking-[0.2em] uppercase ${light ? 'text-brand-200' : 'text-brand-600'}`}>Construction</span>
